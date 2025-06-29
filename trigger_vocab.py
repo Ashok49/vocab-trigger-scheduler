@@ -2,7 +2,7 @@ import requests
 
 # API Endpoints
 SYNC_URL = "https://vocabautomationdotnet.onrender.com/api/Vocab/sync"
-SEND_BATCH_URL = "https://vocabautomationdotnet.onrender.com/api/Vocab/send-batch/software_vocabulary"
+SEND_BATCH_URL = "https://vocabautomationdotnet.onrender.com/api/Vocab/send-batch/general_vocabulary"
 
 def trigger_sync():
     try:
@@ -24,4 +24,4 @@ def trigger_send_batch():
 
 if __name__ == "__main__":
     trigger_sync()
-    #trigger_send_batch()
+    trigger_send_batch()
