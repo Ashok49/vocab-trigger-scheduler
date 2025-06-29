@@ -7,7 +7,7 @@ SEND_BATCH_URL = "https://vocabautomationdotnet.onrender.com/api/Vocab/send-batc
 def trigger_sync():
     try:
         print("🔄 Triggering sync...")
-        response = requests.get(SYNC_URL)
+        response = requests.post(SYNC_URL)
         response.raise_for_status()
         print("✅ Sync response:", response.text)
     except Exception as e:
@@ -24,4 +24,4 @@ def trigger_send_batch():
 
 if __name__ == "__main__":
     trigger_sync()
-    trigger_send_batch()
+    #trigger_send_batch()
