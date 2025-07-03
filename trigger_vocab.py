@@ -1,8 +1,14 @@
 import requests
 
-# API Endpoints
-SYNC_URL = "https://vocabautomationdotnet.onrender.com/api/Vocab/sync"
-SEND_BATCH_URL = "https://vocabautomationdotnet.onrender.com/api/Vocab/send-batch/general_vocabulary"
+# DOTNET API Endpoints
+#SYNC_URL = "https://vocabautomationdotnet.onrender.com/api/Vocab/sync"
+#SEND_BATCH_URL = "https://vocabautomationdotnet.onrender.com/api/Vocab/send-batch/general_vocabulary"
+
+# JAVA API Endpoints
+SYNC_URL = "https://vocabautomationjava.onrender.com/api/Vocab/sync"
+SEND_BATCH_URL = "https://vocabautomationjava.onrender.com/api/Vocab/send-batch/general_vocabulary"
+
+
 
 def trigger_sync():
     try:
