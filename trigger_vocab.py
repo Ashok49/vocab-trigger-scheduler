@@ -5,8 +5,8 @@ import requests
 #SEND_BATCH_URL = "https://vocabautomationdotnet.onrender.com/api/Vocab/send-batch/general_vocabulary"
 
 # JAVA API Endpoints
-SYNC_URL = "https://vocabautomationjava.onrender.com/api/vocab/sync"
-SEND_BATCH_URL = "https://vocabautomationjava.onrender.com/api/vocab/send-batch/software_vocabulary"
+SYNC_URL = "https://vocabautomationjava-1.onrender.com/api/vocab/sync"
+SEND_BATCH_URL = "https://vocabautomationjava-1.onrender.com/api/vocab/send-batch/software_vocabulary"
 
 
 
